@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ASUS/Documents/KULIAH 5/Mobile App/Kelompok3_MobApp/Project/app/src/main/res/layout/activity_log_in.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/Documents/KULIAH 5/Mobile App/Kelompok3_MobApp/Project/app/src/main/res/layout/activity_main.xml" value="0.2346014492753623" />
+        <entry key="..\:/Users/ASUS/Documents/KULIAH 5/Mobile App/Kelompok3_MobApp/Project/app/src/main/res/layout/activity_sign_in_kerabat.xml" value="0.2346014492753623" />
+        <entry key="..\:/Users/ASUS/Documents/KULIAH 5/Mobile App/Kelompok3_MobApp/Project/app/src/main/res/layout/activity_sign_in_pasien.xml" value="0.2346014492753623" />
+        <entry key="..\:/Users/ASUS/Documents/KULIAH 5/Mobile App/Kelompok3_MobApp/Project/app/src/main/res/layout/activity_splash_screen.xml" value="0.2346014492753623" />
+        <entry key="..\:/Users/ASUS/Documents/KULIAH 5/Mobile App/Kelompok3_MobApp/Project/app/src/main/res/layout/fragment_sign_in_kerabat.xml" value="0.264" />
         <entry key="..\:/Users/ASUS/Documents/KULIAH 5/Mobile App/Project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2885" />
         <entry key="..\:/Users/ASUS/Documents/KULIAH 5/Mobile App/Project/app/src/main/res/drawable/background_welcome.xml" value="0.2885" />
         <entry key="..\:/Users/ASUS/Documents/KULIAH 5/Mobile App/Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2885" />
