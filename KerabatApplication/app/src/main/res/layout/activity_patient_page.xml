@@ -5,10 +5,10 @@
     android:id="@+id/frameLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".patient_page">
+    tools:context=".PatientPageActivity">
 
     <ImageButton
-        android:id="@+id/imageButton10"
+        android:id="@+id/back_buttonAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#00FFFFFF"
@@ -36,24 +36,12 @@
         android:id="@+id/imageButton12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="376dp"
         android:background="#00FFFFFF"
         android:src="@drawable/pasien1"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton13"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.438"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageButton
-        android:id="@+id/imageButton13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="288dp"
-        android:background="#00FFFFFF"
-        android:src="@drawable/pasien2"
         app:layout_constraintBottom_toTopOf="@+id/imageButton14"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton

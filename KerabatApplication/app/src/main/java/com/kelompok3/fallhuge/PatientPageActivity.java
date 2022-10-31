@@ -7,21 +7,21 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class AccountPageKerabatActivity extends AppCompatActivity {
+public class PatientPageActivity extends AppCompatActivity {
 
     private ImageButton backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_accountpage_kerabat);
+        setContentView(R.layout.activity_patient_page);
 
         backButton = findViewById(R.id.back_buttonAccount);
 
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(AccountPageKerabatActivity.this, MainpageKerabatActivity.class);
+                Intent myIntent = new Intent(PatientPageActivity.this, MainpageKerabatActivity.class);
                 MainpageKerabatActivity.this.startActivity(myIntent);
             }
         });

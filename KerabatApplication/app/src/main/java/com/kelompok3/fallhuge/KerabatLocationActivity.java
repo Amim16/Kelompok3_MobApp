@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class riwayat_notifikasi extends AppCompatActivity {
+public class KerabatLocationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_riwayat_notifikasi);
+        setContentView(R.layout.activity_kerabat_location);
     }
 }

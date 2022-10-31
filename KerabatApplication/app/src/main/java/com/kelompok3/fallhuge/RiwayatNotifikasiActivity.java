@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class elder_location extends AppCompatActivity {
+public class RiwayatNotifikasiActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_elder_location);
+        setContentView(R.layout.activity_riwayat_notifikasi);
     }
 }
