@@ -9,7 +9,7 @@
     tools:context=".MessagePageActivity">
 
     <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/backpesanButton"
         android:layout_width="66dp"
         android:layout_height="66dp"
         android:layout_marginTop="16dp"
@@ -85,13 +85,15 @@
 
     <ImageButton
         android:id="@+id/imageButton27"
-        android:layout_width="250dp"
-        android:layout_height="63dp"
+        android:layout_width="216dp"
+        android:layout_height="70dp"
         android:background="#00FFFFFF"
         android:scaleType="fitXY"
         android:src="@drawable/button_bg1"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="584dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton22" />
 
     <ImageView
         android:id="@+id/imageView15"
@@ -203,6 +205,10 @@
         android:layout_height="33dp"
         android:scaleType="fitXY"
         android:src="@drawable/addmessagetext"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="596dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton27"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton27"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/imageButton27"
+        app:layout_constraintTop_toTopOf="@+id/imageButton27"
+        app:layout_constraintVertical_bias="0.567" />
 </androidx.constraintlayout.widget.ConstraintLayout>

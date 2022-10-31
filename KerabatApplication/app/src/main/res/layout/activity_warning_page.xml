@@ -18,12 +18,20 @@
         tools:layout_editor_absoluteY="142dp" />
 
     <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bg_white"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/user_circle"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="487dp" />
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="484dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -33,8 +41,18 @@
         android:text="GORDON RAMSAY"
         android:textColor="#1C3B60"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="497dp" />
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 Oktober, 07.11"
+        android:textColor="#5C6066"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="512dp" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -62,5 +80,6 @@
         app:srcCompat="@drawable/help_button"
         tools:layout_editor_absoluteX="141dp"
         tools:layout_editor_absoluteY="565dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

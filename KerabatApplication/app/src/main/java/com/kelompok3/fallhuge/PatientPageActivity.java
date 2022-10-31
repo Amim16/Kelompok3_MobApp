@@ -16,13 +16,13 @@ public class PatientPageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_patient_page);
 
-        backButton = findViewById(R.id.back_buttonAccount);
+        backButton = findViewById(R.id.back_buttonPatient);
 
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent myIntent = new Intent(PatientPageActivity.this, MainpageKerabatActivity.class);
-                MainpageKerabatActivity.this.startActivity(myIntent);
+                PatientPageActivity.this.startActivity(myIntent);
             }
         });
     }

@@ -10,7 +10,7 @@
     <!-- TODO: Update blank fragment layout -->
 
     <ImageButton
-        android:id="@+id/imageButton15"
+        android:id="@+id/back_buttonProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#00FFFFFF"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:fontFamily="@font/poppins_bold"
-        android:text="Muhammad Rafli"
+        android:text="GORDON RAMSEY"
         android:textColor="#1C3B60"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:text="Rafli@gmail.com"
+        android:text="Gordon@gmail.com"
         android:textColor="#5C6066"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
@@ -137,7 +137,7 @@
         android:layout_marginEnd="84dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/poppins_bold"
-        android:text="20 Tahun"
+        android:text="65 Tahun"
         android:textColor="#1C3B60"
         app:layout_constraintBottom_toTopOf="@+id/textView10"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -161,7 +161,7 @@
         android:layout_marginEnd="84dp"
         android:layout_marginBottom="36dp"
         android:fontFamily="@font/poppins_bold"
-        android:text="Jalan Kaki No 4 Jakarta"
+        android:text="Jalan Kaki No 4 Bandung"
         android:textColor="#1C3B60"
         app:layout_constraintBottom_toTopOf="@+id/imageButton16"
         app:layout_constraintEnd_toEndOf="parent" />
