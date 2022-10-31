@@ -9,7 +9,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="My Application"
+        android:label="PasienApplication"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
@@ -19,7 +19,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             <meta-data
@@ -27,14 +26,26 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".LogInActivity"
             android:exported="true" />
         <activity
             android:name=".SignInPasienActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
-            android:name=".LogInActivity"
-            android:exported="false" />
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainPagePatientActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AccountPatientPageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".KerabatPatientPageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MessagePageActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

@@ -9,7 +9,7 @@
     tools:context=".KerabatPatientPageActivity">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/backKerabatButton"
         android:layout_width="63dp"
         android:layout_height="64dp"
         android:layout_marginStart="16dp"
@@ -29,7 +29,7 @@
         android:src="@drawable/kerabatpatienttext"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.215"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintStart_toEndOf="@+id/backKerabatButton"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
