@@ -22,7 +22,7 @@ public class AccountPageKerabatActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent myIntent = new Intent(AccountPageKerabatActivity.this, MainpageKerabatActivity.class);
-                MainpageKerabatActivity.this.startActivity(myIntent);
+                AccountPageKerabatActivity.this.startActivity(myIntent);
             }
         });
     }
