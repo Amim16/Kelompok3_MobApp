@@ -14,23 +14,35 @@
         android:theme="@style/Theme.KerabatApplication"
         tools:targetApi="31">
         <activity
-            android:name=".elder_location"
+            android:name=".WarningPageActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".KerabatLocationActivity"
             android:exported="false" />
         <activity
             android:name=".first_aid_detail"
             android:exported="false" />
         <activity
-            android:name=".first_aid"
+            android:name=".FirstAidActivity"
             android:exported="false" />
         <activity
-            android:name=".riwayat_notifikasi"
+            android:name=".RiwayatNotifikasiActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".AccountPageKerabatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilePatientPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientPageActivity"
             android:exported="false" />
         <activity
             android:name=".MainpageKerabatActivity"
@@ -40,7 +52,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
 
         <meta-data
