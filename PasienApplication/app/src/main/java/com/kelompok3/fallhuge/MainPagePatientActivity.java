@@ -13,7 +13,7 @@ import android.widget.ImageButton;
 
 public class MainPagePatientActivity extends AppCompatActivity {
 
-    private ImageButton pesanButton, kerabatButton, accountButton;
+    private ImageButton pesanButton, kerabatButton, accountButton, bantuanButton, notifikasiButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,11 +39,29 @@ public class MainPagePatientActivity extends AppCompatActivity {
             }
         });
 
+        notifikasiButton = findViewById(R.id.notifikasiButton);
+        notifikasiButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(MainPagePatientActivity.this, NotificationPage.class);
+                MainPagePatientActivity.this.startActivity(myIntent);
+            }
+        });
+
         accountButton = findViewById(R.id.accountButton);
         accountButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent myIntent = new Intent(MainPagePatientActivity.this, AccountPatientPageActivity.class);
+                MainPagePatientActivity.this.startActivity(myIntent);
+            }
+        });
+
+        bantuanButton = findViewById(R.id.bantuanButton);
+        bantuanButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(MainPagePatientActivity.this, PopUpHelpButton.class);
                 MainPagePatientActivity.this.startActivity(myIntent);
             }
         });
