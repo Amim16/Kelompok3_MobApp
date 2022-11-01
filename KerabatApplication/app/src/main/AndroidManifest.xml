@@ -14,6 +14,9 @@
         android:theme="@style/Theme.KerabatApplication"
         tools:targetApi="31">
         <activity
+            android:name=".HelpElderActivity"
+            android:exported="false" />
+        <activity
             android:name=".WarningPageActivity"
             android:exported="false">
             <meta-data
@@ -21,28 +24,19 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".KerabatLocationActivity"
+            android:name=".AccountPageKerabatActivity"
             android:exported="false" />
         <activity
-            android:name=".first_aid_detail"
+            android:name=".FirstAidDetail"
             android:exported="false" />
         <activity
             android:name=".FirstAidActivity"
             android:exported="false" />
         <activity
-            android:name=".RiwayatNotifikasiActivity"
+            android:name=".KerabatLocationActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
-        <activity
-            android:name=".AccountPageKerabatActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ProfilePatientPageActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PatientPageActivity"
             android:exported="false" />
         <activity
             android:name=".MainpageKerabatActivity"
@@ -53,6 +47,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NextWarningPageKerabat"
+            android:exported="false" />
+        <activity
+            android:name=".PatientPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilePatientPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiwayatNotifikasiActivity"
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E6E6E6"
     tools:context=".WarningPageActivity">
 
     <TextView
@@ -55,15 +56,6 @@
         tools:layout_editor_absoluteY="512dp" />
 
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/warning"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="226dp" />
-
-    <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -80,6 +72,15 @@
         app:srcCompat="@drawable/help_button"
         tools:layout_editor_absoluteX="141dp"
         tools:layout_editor_absoluteY="565dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/warning_red"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="217dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
