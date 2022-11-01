@@ -8,7 +8,7 @@
     tools:context=".NotificationPage">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/backButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -26,21 +26,21 @@
         android:layout_height="35dp"
         android:layout_marginStart="17dp"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toTopOf="@+id/imageButton"
+        app:layout_constraintBottom_toBottomOf="@+id/backButton"
+        app:layout_constraintStart_toEndOf="@+id/backButton"
+        app:layout_constraintTop_toTopOf="@+id/backButton"
         app:srcCompat="@drawable/notificationtext" />
 
     <ImageView
         android:id="@+id/imageView21"
         android:layout_width="380dp"
-        android:layout_height="660dp"
+        android:layout_height="610dp"
         android:layout_marginTop="20dp"
         android:background="#00FFFFFF"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/backButton"
         app:srcCompat="@drawable/bgnotification" />
 
     <ImageButton
@@ -109,7 +109,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:fontFamily="@font/poppins_bold"
-        android:text="Tolong Ambilkan Obat"
+        android:text="Ambilkan Obat"
         android:textColor="#1C3B60"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView26"
