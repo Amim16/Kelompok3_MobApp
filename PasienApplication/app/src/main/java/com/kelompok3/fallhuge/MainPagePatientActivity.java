@@ -9,17 +9,28 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 public class MainPagePatientActivity extends AppCompatActivity {
 
     private ImageButton pesanButton, kerabatButton, accountButton, bantuanButton, notifikasiButton;
+    private Button buttonFallSimulation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page_patient);
         getSupportActionBar().hide();
+
+        buttonFallSimulation = findViewById(R.id.buttonFallSimulation);
+        buttonFallSimulation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(MainPagePatientActivity.this, PopUpFallDetection.class);
+                MainPagePatientActivity.this.startActivity(myIntent);
+            }
+        });
 
         pesanButton = findViewById(R.id.pesanButton);
         pesanButton.setOnClickListener(new View.OnClickListener() {
