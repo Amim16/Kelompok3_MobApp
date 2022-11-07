@@ -27,7 +27,7 @@
             android:name=".AccountPageKerabatActivity"
             android:exported="false" />
         <activity
-            android:name=".FirstAidDetail"
+            android:name=".FirstAidDetailActivity"
             android:exported="false" />
         <activity
             android:name=".FirstAidActivity"
@@ -48,7 +48,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NextWarningPageKerabat"
+            android:name=".NextWarningPageKerabatActivity"
             android:exported="false" />
         <activity
             android:name=".PatientPageActivity"

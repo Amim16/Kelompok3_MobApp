@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EDEEF3"
-    tools:context=".NextWarningPageKerabat">
+    tools:context=".NextWarningPageKerabatActivity">
 
     <ImageButton
         android:id="@+id/profilePatientButton"
