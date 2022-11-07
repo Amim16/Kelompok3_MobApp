@@ -8,7 +8,7 @@
     tools:context=".PopUpHelpButton">
 
     <TextView
-        android:id="@+id/textView31"
+        android:id="@+id/MasukDisini"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"
@@ -31,7 +31,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+        app:layout_constraintTop_toBottomOf="@+id/MasukDisini" />
 
     <ImageButton
         android:id="@+id/imageButton4"
