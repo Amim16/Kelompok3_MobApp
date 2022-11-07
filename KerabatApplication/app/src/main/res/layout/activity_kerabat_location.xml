@@ -11,68 +11,54 @@
         android:id="@+id/mapView"
         android:layout_width="413dp"
         android:layout_height="413dp"
-        app:layout_constraintBottom_toBottomOf="@+id/cardView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/back_button"
         android:layout_width="58dp"
         android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
         android:background="#00FFFFFF"
-        android:paddingStart="5dp"
-        android:paddingTop="7dp"
-        app:layout_constraintBottom_toBottomOf="@+id/cardView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
         app:srcCompat="@drawable/back_page" />
 
     <TextView
         android:id="@+id/title"
         android:layout_width="190dp"
         android:layout_height="27dp"
-        android:layout_marginStart="3dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="35dp"
         android:fontFamily="@font/poppins_bold"
         android:text="RIWAYAT NOTIFIKASI"
         android:textColor="#1C3B60"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toEndOf="@+id/icon_title"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.048" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/icon_title"
         android:layout_width="30dp"
         android:layout_height="33dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="28dp"
-        app:layout_constraintBottom_toBottomOf="@+id/mapView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintStart_toEndOf="@+id/back_button"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/map_pin" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView3"
-        android:layout_width="410dp"
-        android:layout_height="315dp"
-        android:layout_marginTop="360dp"
+        android:layout_width="408dp"
+        android:layout_height="350dp"
         android:backgroundTint="#EDEEF3"
         app:cardCornerRadius="17dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title">
+        app:layout_constraintTop_toBottomOf="@id/mapView">
 
         <androidx.cardview.widget.CardView
             android:layout_width="380dp"

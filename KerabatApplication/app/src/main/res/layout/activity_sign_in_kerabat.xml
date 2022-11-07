@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignInPasienActivity"
+    tools:context=".SignInKerabatActivity"
     android:background="#EDEEF3">
 
     <EditText
@@ -103,7 +103,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.108"
-        app:srcCompat="@drawable/pasien" />
+        app:srcCompat="@drawable/kerabattitle" />
 
     <Button
         android:id="@+id/buatakunButton"

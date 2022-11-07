@@ -9,10 +9,11 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class SignInPasienActivity extends AppCompatActivity {
+public class SignInKerabatActivity extends AppCompatActivity {
 
     private Button buatakunButton;
     private TextView masukDisini;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,15 +21,14 @@ public class SignInPasienActivity extends AppCompatActivity {
         //menghilangkan ActionBar
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         getSupportActionBar().hide();
-
-        setContentView(R.layout.activity_sign_in_pasien);
+        setContentView(R.layout.activity_sign_in_kerabat);
 
         buatakunButton = findViewById(R.id.buatakunButton);
         buatakunButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(SignInPasienActivity.this, MainPagePatientActivity.class);
-                SignInPasienActivity.this.startActivity(myIntent);
+                Intent myIntent = new Intent(SignInKerabatActivity.this, MainpageKerabatActivity.class);
+                SignInKerabatActivity.this.startActivity(myIntent);
             }
         });
 
@@ -36,8 +36,8 @@ public class SignInPasienActivity extends AppCompatActivity {
         masukDisini.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(SignInPasienActivity.this, LogInActivity.class);
-                SignInPasienActivity.this.startActivity(myIntent);
+                Intent myIntent = new Intent(SignInKerabatActivity.this, LogInKerabatActivity.class);
+                SignInKerabatActivity.this.startActivity(myIntent);
             }
         });
     }

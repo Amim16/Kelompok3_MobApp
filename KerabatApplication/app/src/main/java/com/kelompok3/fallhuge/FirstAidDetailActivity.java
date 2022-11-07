@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class FirstAidDetail extends AppCompatActivity {
+public class FirstAidDetailActivity extends AppCompatActivity {
     private ImageButton backButton;
 
     @Override
@@ -20,8 +20,8 @@ public class FirstAidDetail extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(FirstAidDetail.this, FirstAidActivity.class);
-                FirstAidDetail.this.startActivity(myIntent);
+                Intent myIntent = new Intent(FirstAidDetailActivity.this, FirstAidActivity.class);
+                FirstAidDetailActivity.this.startActivity(myIntent);
             }
         });
     }

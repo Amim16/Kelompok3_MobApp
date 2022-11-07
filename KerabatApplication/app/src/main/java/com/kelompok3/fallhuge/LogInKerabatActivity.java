@@ -9,8 +9,7 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class LogInActivity extends AppCompatActivity {
-
+public class LogInKerabatActivity extends AppCompatActivity {
     private Button masukButton;
     private TextView buatAkun;
 
@@ -20,15 +19,14 @@ public class LogInActivity extends AppCompatActivity {
         //menghilangkan ActionBar
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         getSupportActionBar().hide();
-
-        setContentView(R.layout.activity_log_in);
+        setContentView(R.layout.activity_log_in_kerabat);
 
         masukButton = findViewById(R.id.masukButton);
         masukButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(LogInActivity.this, MainPagePatientActivity.class);
-                LogInActivity.this.startActivity(myIntent);
+                Intent myIntent = new Intent(LogInKerabatActivity.this, MainpageKerabatActivity.class);
+                LogInKerabatActivity.this.startActivity(myIntent);
             }
         });
 
@@ -36,8 +34,8 @@ public class LogInActivity extends AppCompatActivity {
         buatAkun.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(LogInActivity.this, SignInPasienActivity.class);
-                LogInActivity.this.startActivity(myIntent);
+                Intent myIntent = new Intent(LogInKerabatActivity.this, SignInKerabatActivity.class);
+                LogInKerabatActivity.this.startActivity(myIntent);
             }
         });
     }

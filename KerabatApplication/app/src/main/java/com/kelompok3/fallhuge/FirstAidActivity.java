@@ -30,7 +30,7 @@ public class FirstAidActivity extends AppCompatActivity {
         detailFirstAidButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(FirstAidActivity.this, FirstAidDetail.class);
+                Intent myIntent = new Intent(FirstAidActivity.this, FirstAidDetailActivity.class);
                 FirstAidActivity.this.startActivity(myIntent);
             }
         });
