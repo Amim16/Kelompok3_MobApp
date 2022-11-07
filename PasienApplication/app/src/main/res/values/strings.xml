@@ -2,4 +2,14 @@
     <string name="app_name">My Application</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="sepertinya_">
+        Sepertinya kamu \nmembutuhkan bantuan
+    </string>
+
+    <string name="sepertinya_2">
+        Sepertinya kamu \nterjatuh !!
+    </string>
+
+    <string name="tidak">TIDAK</string>
 </resources>
