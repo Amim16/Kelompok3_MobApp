@@ -7,32 +7,52 @@
     android:background="#EDEEF3"
     tools:context=".PopUpFallDetection">
 
-    <!-- Sepertinya kamu terjatuh !! -->
     <TextView
-        android:id="@+id/sepertinya_2"
+        android:id="@+id/textView33"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginTop="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
         android:fontFamily="@font/poppins_bold"
-        android:gravity="center_horizontal|center_vertical"
-        android:lineSpacingExtra="6sp"
-        android:text="@string/sepertinya_2"
+        android:text=" Sepertinya kamu"
         android:textColor="#1C3B60"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="terjatuh !!"
+        android:textColor="#1C3B60"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
     <ImageButton
         android:id="@+id/imageButton5"
-        android:layout_width="230dp"
-        android:layout_height="230dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="277dp"
+        android:layout_height="277dp"
+        android:layout_marginTop="48dp"
         android:background="#00FFFFFF"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sepertinya_2"
+        app:layout_constraintTop_toBottomOf="@+id/textView35"
         app:srcCompat="@drawable/buttonfallcountdown" />
 
+    <ImageButton
+        android:id="@+id/closeButton"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/xclosebutton" />
 </androidx.constraintlayout.widget.ConstraintLayout>

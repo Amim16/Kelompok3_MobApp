@@ -2,42 +2,31 @@ package com.kelompok3.fallhuge;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.kelompok3.fallhuge.adapter.PatientAdapter;
+import java.util.ArrayList;
 
 public class PatientPageActivity extends AppCompatActivity {
 
-    private ImageButton backButton, profilePatient_Button;
-    protected RecyclerView mRecyclerView;
-    protected PatientAdapter mAdapter;
-    protected RecyclerView.LayoutManager mLayoutManager;
-    protected String[] patientList;
+    private ImageButton backButton;
+    ArrayList<Elder> alElder = new ArrayList<Elder>();
+    AdapterPasien adapter;
+    RecyclerView rvElder;
+    RecyclerView.LayoutManager lm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_patient_page);
 
-        // Setup recyclerView
-        mRecyclerView = findViewById(R.id.rv_patient_list);
-
-        patientList = new String[]{"ghiyats", "udin", "asep", "johny"};
-
-        mAdapter = new PatientAdapter(patientList);
-        mRecyclerView.setHasFixedSize(true);
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        mRecyclerView.setAdapter(mAdapter);
-
         backButton = findViewById(R.id.back_buttonPatient);
-//        profilePatient_Button = findViewById(R.id.profilePatientButton);
+        //profilePatient_Button = findViewById(R.id.profilePatientButton);
 
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +42,57 @@ public class PatientPageActivity extends AppCompatActivity {
 //                PatientPageActivity.this.startActivity(myIntent);
 //            }
 //        });
-    }
 
+        setContentView(R.layout.activity_patient_page);
+
+        alElder.add(new Elder("Gordon Ramsay"));
+        alElder.add(new Elder("Jackson"));
+
+        rvElder = (RecyclerView) findViewById(R.id.elders);
+
+        //supaya cepat karena ukuran baris tdk berubah.
+        rvElder.setHasFixedSize(true);
+
+        //adapter
+        adapter = new AdapterPasien(alElder);
+        rvElder.setAdapter(adapter);
+
+        //layout manager
+        lm = new LinearLayoutManager(this);
+        rvElder.setLayoutManager(lm);
+
+        //supaya ada garis
+        rvElder.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
+    }
 }
+
+//    ArrayList<Elder> alEder = new ArrayList<>();
+//    AdapterPasien adapter;
+//    RecyclerView rvElder;
+//    RecyclerView.LayoutManager lm;
+//
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_patient_page);
+//
+//        alEder.add(new Elder("Gordon Ramsay"));
+//        alEder.add(new Elder("Jackson"));
+//
+//        rvElder =  (RecyclerView) findViewById(R.id.elderList);
+//
+//        //supaya cepat karena ukuran baris tdk berubah.
+//        rvElder .setHasFixedSize(true);
+//
+//        //adapter
+//        adapter = new AdapterPasien(alEder);
+//        rvElder.setAdapter(adapter);
+//
+//        //layout manager
+//        lm = new LinearLayoutManager(this);
+//        rvElder.setLayoutManager(lm);
+//
+//        //supaya ada garis
+//        rvElder.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
+//    }
+//    }
