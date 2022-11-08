@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.ebanx.swipebtn.OnStateChangeListener;
+import com.ebanx.swipebtn.SwipeButton;
+
 public class PopUpHelpButton extends AppCompatActivity {
 
     private ImageButton cancelButton;
@@ -17,12 +20,11 @@ public class PopUpHelpButton extends AppCompatActivity {
         setContentView(R.layout.activity_pop_up_help_button);
         getSupportActionBar().hide();
 
-        cancelButton = findViewById(R.id.cancelButton);
-        cancelButton.setOnClickListener(new View.OnClickListener() {
+        SwipeButton swipeButton = findViewById(R.id.swipe_button);
+        swipeButton.setOnStateChangeListener(new OnStateChangeListener() {
             @Override
-            public void onClick(View view) {
-                Intent myIntent = new Intent(PopUpHelpButton.this, MainPagePatientActivity.class);
-                PopUpHelpButton.this.startActivity(myIntent);
+            public void onStateChange(boolean active) {
+                startActivity(new Intent(PopUpHelpButton.this, MainPagePatientActivity.class));
             }
         });
     }

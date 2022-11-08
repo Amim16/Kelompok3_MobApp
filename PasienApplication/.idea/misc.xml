@@ -37,6 +37,17 @@
         <entry key="..\:/Users/ASUS/Documents/KULIAH 5/Mobile App/Project/app/src/main/res/layout/activity_sign_in_kerabat.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ASUS/Documents/KULIAH 5/Mobile App/Project/app/src/main/res/layout/activity_sign_in_pasien.xml" value="0.152" />
         <entry key="..\:/Users/ASUS/Documents/KULIAH 5/Mobile App/Project/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/User/Documents/GitHub/Kel3_MobApp/Kelompok3_MobApp/PasienApplication/app/src/main/res/drawable/button_shape.xml" value="0.1785" />
+        <entry key="..\:/Users/User/Documents/GitHub/Kel3_MobApp/Kelompok3_MobApp/PasienApplication/app/src/main/res/drawable/inner_text_shape.xml" value="0.1785" />
+        <entry key="..\:/Users/User/Documents/GitHub/Kel3_MobApp/Kelompok3_MobApp/PasienApplication/app/src/main/res/layout/activity_account_patient_page.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/User/Documents/GitHub/Kel3_MobApp/Kelompok3_MobApp/PasienApplication/app/src/main/res/layout/activity_kerabat_patient_page.xml" value="0.129981884057971" />
+        <entry key="..\:/Users/User/Documents/GitHub/Kel3_MobApp/Kelompok3_MobApp/PasienApplication/app/src/main/res/layout/activity_main.xml" value="0.129981884057971" />
+        <entry key="..\:/Users/User/Documents/GitHub/Kel3_MobApp/Kelompok3_MobApp/PasienApplication/app/src/main/res/layout/activity_main_page_patient.xml" value="0.22" />
+        <entry key="..\:/Users/User/Documents/GitHub/Kel3_MobApp/Kelompok3_MobApp/PasienApplication/app/src/main/res/layout/activity_message_page.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/User/Documents/GitHub/Kel3_MobApp/Kelompok3_MobApp/PasienApplication/app/src/main/res/layout/activity_notification_page.xml" value="0.22" />
+        <entry key="..\:/Users/User/Documents/GitHub/Kel3_MobApp/Kelompok3_MobApp/PasienApplication/app/src/main/res/layout/activity_pop_up_fall_detection.xml" value="0.22" />
+        <entry key="..\:/Users/User/Documents/GitHub/Kel3_MobApp/Kelompok3_MobApp/PasienApplication/app/src/main/res/layout/activity_pop_up_help_button.xml" value="0.22" />
+        <entry key="..\:/Users/User/Documents/GitHub/Kel3_MobApp/Kelompok3_MobApp/PasienApplication/app/src/main/res/layout/activity_splash_screen.xml" value="0.129981884057971" />
       </map>
     </option>
   </component>

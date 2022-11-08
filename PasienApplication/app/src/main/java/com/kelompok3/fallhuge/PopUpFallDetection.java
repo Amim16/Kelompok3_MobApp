@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.ebanx.swipebtn.OnStateChangeListener;
+import com.ebanx.swipebtn.SwipeButton;
+
 public class PopUpFallDetection extends AppCompatActivity {
 
     private ImageButton closeButton;
@@ -16,12 +19,11 @@ public class PopUpFallDetection extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pop_up_fall_detection);
 
-        closeButton = findViewById(R.id.closeButton);
-        closeButton.setOnClickListener(new View.OnClickListener() {
+        SwipeButton swipeButton = findViewById(R.id.swipe_button);
+        swipeButton.setOnStateChangeListener(new OnStateChangeListener() {
             @Override
-            public void onClick(View view) {
-                Intent myIntent = new Intent(PopUpFallDetection.this, MainPagePatientActivity.class);
-                PopUpFallDetection.this.startActivity(myIntent);
+            public void onStateChange(boolean active) {
+                startActivity(new Intent(PopUpFallDetection.this, MainPagePatientActivity.class));
             }
         });
     }
